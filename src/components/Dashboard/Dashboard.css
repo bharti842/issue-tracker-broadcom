@@ -1,0 +1,81 @@
+.sidenavbarul li {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  padding: 10px;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 35px;
+  text-decoration: none;
+  background-color: #242a2e;
+}
+
+.sidebarimg {
+  padding: 50px;
+}
+
+.navbar-container {
+  width: 380px;
+  height: 100vh;
+  background-color: #1d262d;
+  border: 1px solid #555;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+}
+
+.btn-active {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 15.38%;
+  bottom: 15.38%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f8fafa;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  background-color: Transparent;
+  border: none;
+}
+
+.btn1,
+.btn2 {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 15.38%;
+  bottom: 15.38%;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+  background-color: Transparent;
+  border: none;
+}
