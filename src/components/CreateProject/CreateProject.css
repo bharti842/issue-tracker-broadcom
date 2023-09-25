@@ -1,0 +1,77 @@
+.create-project-container {
+  width: 380px;
+  height: 100vh;
+  background-color: #1d262d;
+  border: 1px solid #555;
+  display: flex;
+}
+
+.project-heading {
+  font-size: 35px;
+  color: #1d262d;
+  margin-top: 20px;
+}
+
+form {
+  margin: auto;
+  background: white;
+  text-align: left;
+  border-radius: 10px;
+}
+
+label {
+  color: #777373;
+  display: inline-block;
+  margin: 15px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+input,
+select {
+  display: block;
+  padding: 10px 6px;
+  width: 250%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+button {
+  font-size: 0.95rem;
+  background: hsl(216, 75%, 53%);
+  border: 0;
+  padding: 10px 20px;
+  margin-top: 7px;
+  color: white;
+  border-radius: 20px;
+  margin-left: 35%;
+  width: 120px;
+  height: 40px;
+}
+
+.createBtn {
+  margin-left: 60px;
+  border-radius: 4px;
+  background-color: #1d262d;
+  text-transform: uppercase;
+  color: white;
+}
+
+.resetBtn {
+  border: 1px solid #1d262d;
+  border-radius: 4px;
+  background-color: white;
+  text-transform: uppercase;
+  color: #1d262d;
+  margin-left: 29%;
+  margin-top: 4%;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 4px;
+}

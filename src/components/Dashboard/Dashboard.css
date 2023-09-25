@@ -1,81 +1,110 @@
-.sidenavbarul li {
-  color: #ffffff;
-  font-style: normal;
-  font-size: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1.25px;
-  padding: 10px;
-  display: flex;
-  font-weight: 500;
-  align-items: center;
-  line-height: 35px;
-  text-decoration: none;
-  background-color: #242a2e;
-}
-
-.sidebarimg {
-  padding: 50px;
-}
-
 .navbar-container {
   width: 380px;
   height: 100vh;
   background-color: #1d262d;
   border: 1px solid #555;
   display: flex;
-  flex-direction: row;
-  position: fixed;
-  top: 0px;
 }
 
-.btn-active {
-  position: static;
-  left: 0%;
-  right: 0%;
-  top: 15.38%;
-  bottom: 15.38%;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 1.25px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #f8fafa;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
-  background-color: Transparent;
-  border: none;
+.noTask {
+  margin: 160px 380px;
+  align-items: left;
 }
 
-.btn1,
-.btn2 {
-  position: static;
-  left: 0%;
-  right: 0%;
-  top: 15.38%;
-  bottom: 15.38%;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 1.25px;
-  text-transform: uppercase;
-  color: #ffffff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 8px;
-  background-color: Transparent;
+p {
+  color: #85929c;
+  margin-top: 0px;
+}
+
+.project-form {
+  margin-left: 7%;
+  margin-bottom: 500%;
+}
+
+label {
+  color: #777373;
+  display: inline-block;
+  margin: 15px;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  /* width: 200px; */
+}
+
+input,
+select {
+  display: block;
+  padding: 10px 6px;
+  /* width: 250%; */
+  box-sizing: border-box;
   border: none;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.vl {
+  border-left: 1px solid #85929c;
+  height: 30px;
+}
+
+.tracker-summary {
+  color: #85929c;
+  margin-right: 40%;
+}
+
+.tracker-heading {
+  margin-right: 60%;
+  margin-top: 5%;
+}
+
+.search-container {
+  margin-left: 16%;
+}
+
+.insight-btn {
+  margin-left: 112vh;
+  width: 190px;
+  border-radius: 4px;
+  background-color: #1d262d;
+  text-transform: uppercase;
+  color: white;
+}
+.issue-outer {
+  background-color: #f1f0f0;
+  display: inline-block;
+  gap: 1rem;
+}
+.issue-container {
+  width: 320px;
+  border-radius: 10px;
+  height: 200px;
+  background-color: #ffffff;
+  margin-left: 6%;
+  margin-top: 7%;
+}
+
+.prio-high {
+  background-color: #dc3545;
+  color: white;
+  text-transform: uppercase;
+  width: 60px;
+  border-radius: 4px;
+  margin-left: 40%;
+}
+
+.prio-med {
+  background-color: #ebaa02;
+  color: white;
+  text-transform: uppercase;
+  width: 90px;
+  border-radius: 4px;
+  margin-left: 40%;
+}
+.prio-low {
+  background-color: #28a745;
+  color: white;
+  text-transform: uppercase;
+  width: 60px;
+  border-radius: 4px;
+  margin-left: 40%;
 }

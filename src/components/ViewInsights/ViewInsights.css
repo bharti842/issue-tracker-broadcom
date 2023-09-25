@@ -1,0 +1,15 @@
+.issue-detail-container {
+  width: 800px;
+  height: 308px;
+  background-color: #f6f5f5;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.users-container {
+  height: 770px;
+  width: 400px;
+  background-color: #f6f5f5;
+  margin-top: 5%;
+  /* margin-left: 26%; */
+}

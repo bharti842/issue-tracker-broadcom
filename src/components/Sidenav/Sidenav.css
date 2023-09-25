@@ -1,0 +1,44 @@
+.sidenav {
+  background-color: #1b242a;
+  width: 380px;
+  border: 1px solid #555;
+}
+
+.sidenav-company-logo {
+  margin-top: 10px;
+  width: 90%;
+  margin-bottom: 5rem;
+}
+
+.nav-link {
+  position: relative;
+  background-color: #26313a;
+  font-size: 13px;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #32404d;
+}
+
+.nav-link.active {
+  background-color: #26313a;
+  color: #ef9168;
+  font-weight: bold;
+}
+
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #ef9168;
+  border-radius: 5px 0 0 5px;
+}
